@@ -121,6 +121,93 @@ transition: 0.5s;
 
 color:crimson;
 }
+.card{
+  border-radius: 2%;
+}
+
+
+
+
+
+
+.card:hover img{
+border: 5px solid crimson;
+transform:translate(0%,-0%); 
+transition: 1s;
+}
+.mee img{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ text-align: center;
+ position:relative;
+ transform:translate(0%,-25%); 
+ box-shadow:0px 7px 8px black;
+ padding: 5px;
+ border: 5px solid rgb(64, 66, 66);
+}
+.mee{
+  margin-top:10%;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+   font-size: 40px;
+   text-align: center;
+   padding: 2%;
+}
+
+.me{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.form{
+    text-align: center;
+}
+.me input,textarea,button{
+    border:2px solid  rgb(64, 66, 66);
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    height: 35px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 18px;
+}
+.me textarea{
+    height: 20%;
+    resize: none;
+    margin-top: 15px;
+}
+.me button{
+  color: #fff;
+    background-color: rgb(64, 66, 66);
+}
+
+button:hover{
+border: 2px solid crimson;
+}
+input:focus{
+  border: 3px solid crimson;
+}
+
+textarea:focus{
+  border: 3px solid crimson;
+}
 
     </style>
 </head>
@@ -160,72 +247,82 @@ color:crimson;
       </div>
     </div>
   </section>
+
+
   <!-- End Hero Section  -->
+
+
+    <!------------ABOUT SECTION--------->
+
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="sonal2.jpg" alt="img">
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Front End Developer</h2>
+          <p>I am a frontend developer.I am currently pursuing my BTech degree at KALINGA
+            INSTITUTE OF INDUSTRIAL TECHNOLOGY.I love sketching!</p>
+          <a href="Resume.png" class="cta">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Skill -->
 
   <section class="skills" id="skill">
     <div class="service">
       <h1 class="htag">SK<span class="span">I</span>LLS</h1>
-      <p class="pp">My name is Sonal Pandey ,and my portfolio is a representation of all that I've learned and accomplished as a science and engineering student.
-          I love designing websites and am looking for more opportunities.</p>
+      
+      <!-- <p class="pp">My name is Sonal Pandey ,and my portfolio is a representation of all that I've learned and accomplished as a science and engineering student.
+          I love designing websites and am looking for more opportunities.</p> -->
           <div class="row">
             <div class="column">
-              <div class="card">
-                <img src="i.jpg" alt="no">
+              <div class="card mee">
+                <img src="webb.png" alt="no">
                 <h3 class="cardtag">WEB DESIGNING</h3>
-                <p>Web design encompasses many different skills and disciplines in the production and maintenance of
-                   websites,web design include interface design.</p>
+                <!-- <p>Web design encompasses many different skills and disciplines in the production and maintenance of
+                   websites,web design include interface design.</p> -->
                 
               </div>
             </div>
           
             <div class="column">
-              <div class="card">
-                <img src="i.jpg" alt="no">
+              <div class="card mee">
+                <img src="an.png" alt="no">
                 <h3 class="cardtag">ANDROID DEVLOPMENT</h3>
-                <p>Android software development is the process by which new applications are created for devices running
-                   the Android operating system.</p>
+                <!-- <p>Android software development is the process by which new applications are created for devices running
+                   the Android operating system.</p> -->
               </div>
             </div>
             
             <div class="column">
-              <div class="card">
-                <img src="i.jpg" alt="no">
+              <div class="card mee">
+                <img src="python.png" alt="no">
                 <h3 class="cardtag">PYTHON PROGRAMMING</h3>
-                <p>Python is used successfully in thousands of real-world business applications around the world,
-                   including many large and mission critical systems.</p>
+                <!-- <p>Python is used successfully in thousands of real-world business applications around the world,
+                   including many large and mission critical systems.</p> -->
               </div>
             </div>
             
             <div class="column">
-              <div class="card">
-                <img src="i.jpg" alt="no">
+              <div class="card mee">
+                <img src="web.png" alt="no">
                 <h3 class="cardtag">WEB DEVLOPMENT</h3>
-                <p>Web programming, also known as web development, is the creation of dynamic web applications.
-                   Examples of web applications are sites like Facebook.</p>
+                <!-- <p>Web programming, also known as web development, is the creation of dynamic web applications.
+                   Examples of web applications are sites like Facebook.</p> -->
               </div>
             </div>
           </div>
   </div>
   </section>
 
-  <!------------ABOUT SECTION--------->
-
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="sonal2.jpg" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Front End Developer</h2>
-        <p>I am a frontend developer.I am currently pursuing my BTech degree at KALINGA
-          INSTITUTE OF INDUSTRIAL TECHNOLOGY.I love sketching!</p>
-        <a href="Resume.png" class="cta">Download Resume</a>
-      </div>
-    </div>
-  </section>
+  <br><br><br><br>
+<hr>
 
   <!-------------PROJECT SECTION----------->
 
@@ -276,15 +373,15 @@ color:crimson;
   <!----------CONTACT SECTION---------->
 
      <section id="contact">
-        <p class="ppp">CON<span class="span">TA</span>CT</p>
-        <div class="container-2">
+       
+        <!-- <div class="container-2">
             <div class="sub-container-2">
                 <div class="banner-img">
                     <picture>
                         
                             <img src="i3.jpg" class="image-fluid" alt="no">
                     </picture>
-                </div>
+                </div> 
                 <div class="login-form">
                     <div class="tittle">
                         Login 
@@ -307,7 +404,36 @@ color:crimson;
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+
+
+
+
+
+        <div class="about">
+          <p class="ppp">CON<span class="span">TA</span>CT</p>
+          <div class="me">
+              
+      
+          
+        <form action="">
+            <input type="text" placeholder="Name">
+            
+         
+            <input type="tel" placeholder="Phone Number">
+            
+            <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <br>
+            <button>SUBMIT</button>
+        </form>
+          </div>
+          
+          </div>
+
+
+
+
     </section>
   <hr>
   <hr>
