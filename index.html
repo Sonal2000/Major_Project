@@ -5,6 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .fixed-footer{
+        bottom: 0;
+    }   
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+
+
+
+
+
+
+
+    .clr{
+  clear: both;
+}
+.footer-wrapper{
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  margin:auto;
+  background:black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  position:relative;
+  padding-top: 75px;
+  bottom: 0px;
+}
+.footer-social-icons{
+  width: 100%;
+  height: auto;
+  margin:auto;
+  margin-bottom: 40px;
+}
+.footer-social-icons ul{
+  margin:0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-social-icons ul li{
+  display: inline-block;
+  margin-right: 2px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 3px;
+}
+.footer-social-icons ul li:hover{
+transform: rotate(-30deg);
+
+border: 3px solid crimson;
+transition: 0.5s;
+}
+.footer-social-icons ul li a{
+  color: #fff;
+  display: block;
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+.footer-social-icons ul li a i{
+  line-height: 36px;
+}
+.footer-social-icons ul li:nth-child(1){
+    background: #3b5998;
+}
+.footer-social-icons ul li:nth-child(2){
+    background: #1da1f2;
+}
+.footer-social-icons ul li:nth-child(3){
+    background: #25d366;
+}
+.footer-social-icons ul li:nth-child(4){
+    background: #c32aa3;
+}
+.footer-social-icons ul li:nth-child(5){
+    background: #007bb5;
+}
+.footer-social-icons ul li:nth-child(6){
+    background: #ff0000;
+}
+.footer-social-icons ul li:nth-child(7){
+    background: #db4437;
+}
+.footer-social-icons ul li:nth-child(8){
+    background: #00aff0;
+}
+.footer-social-icons ul li:nth-child(9){
+    background: #09b83e;
+}
+.footer-social-icons ul li:nth-child(10){
+    background: #bd081c;
+}
+.foot1{
+  display: flex;
+}
+.foot1 div{
+  width: 30%;
+  text-align: center;
+  color:white;
+  margin: 1%;
+}
+.foot1 ul li{
+  list-style-type: none;
+  padding: 3px;
+  cursor: pointer;
+}
+.foot1 ul li:hover{
+
+color:crimson;
+}
+
+    </style>
 </head>
 <body>
     
@@ -196,8 +314,61 @@
   
     <!--------------FOOTER---------->
 
-   
 
+    <div class="footer-wrapper">
+      <div class="top-img"></div>
+      <div class="container-fluid">
+        <div class="footer-social-icons">
+          <ul>
+            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+       
+    
+          </ul>
+        </div>
+       
+    <div class="foot1">
+      <div>
+        <ul>
+          <li><h4>Quick Links</h4></li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Services</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h4>Quick Links</h4></li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Services</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><h4>Quick Links</h4></li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Services</li>
+        </ul>
+      </div>
+    </div>
+    
+    <br>
+    <h3 style="color: whitesmoke; text-align: center;padding:1%;background-color: rgb(51, 51, 51);">
+      Designed by:Sonal Pandey
+    </h3>
+    <br>
+      </div>
+    </div>
+    
+   
+    <script src="https://kit.fontawesome.com/8893b709f5.js" crossorigin="anonymous"></script>
   <script src="./main.js"></script>
 </body>
 </html>
